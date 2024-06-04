@@ -4,4 +4,4 @@
 - lucide
 
 ## links
-- [blog](https://lucide.dev/guide/packages/lucide-react)
+- [blog](https://velog.io/@adidq/series/nextjs)
