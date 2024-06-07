@@ -9,12 +9,13 @@ import {
 } from "@/components/ui/card"
 import { Skeleton } from "@/components/ui/skeleton"
  
-export function ContentCard() {
+export function AdCard() {
   return (
-    <Card className="w-[350px]">
+    <Card className="w-auto">
       <CardHeader>
         <CardTitle>
-          <Skeleton className="h-6 w-[250px]" />
+            <p>AD</p>
+            <Skeleton className="h-6 w-[250px]" />
         </CardTitle>
         <CardDescription>
           <Skeleton className="h-5 w-[230px]" />
