@@ -1,7 +1,9 @@
-export default function Dashboard() {
+import { ContentCard } from "@/components/contents/card";
+
+export default function Home() {
   return (
-    <>
-      <h1>hi</h1>
-    </>
+    <div className="grid gap-4 md:grid-cols-2 md:gap-8 lg:grid-cols-4">
+      <ContentCard/>
+    </div>
   )
 }

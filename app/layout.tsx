@@ -22,7 +22,7 @@ export default function RootLayout({
       <body className={inter.className}>
         <ThemeProvider attribute="class" defaultTheme="system" enableSystem disableTransitionOnChange>
           <Header/>
-          <main>
+          <main className="flex flex-1 flex-col gap-4 p-4 md:gap-8 md:p-8">
             {children}
           </main>
           <Footer/>
